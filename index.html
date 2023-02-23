@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CRUD Pet App</title>
+		<link rel="stylesheet" href="_reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<main>
+			<form
+				action=""
+				onsubmit="event.preventDefault(); event.stopPropagation(); handleFormSubmit()"
+				autocomplete="off">
+				<h1>New Pet Registration</h1>
+				<label for="pet-name">
+					Pet Name:
+					<input
+						type="text"
+						name="pet-name"
+						id="pet-name"
+						class="form-input"
+						required />
+				</label>
+				<label for="age">
+					Age (in years):
+					<input
+						type="number"
+						name="age"
+						id="age"
+						class="form-input"
+						required />
+				</label>
+				<label for="owner-name">
+					Owner Name:
+					<input
+						type="text"
+						name="owner-name"
+						id="owner-name"
+						class="form-input"
+						required />
+				</label>
+				<label for="species">
+					Species:
+					<input
+						type="text"
+						name="species"
+						id="species"
+						class="form-input"
+						required />
+				</label>
+				<label for="breed">
+					Breed:
+					<input
+						type="text"
+						name="breed"
+						id="breed"
+						class="form-input"
+						required />
+				</label>
+				<!-- <input type="submit" value="Submit" /> -->
+				<button type="submit">Submit</button>
+			</form>
+			<!-- <section id="list"></section> -->
+		</main>
+	</body>
+</html>

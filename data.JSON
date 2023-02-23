@@ -1,0 +1,32 @@
+{
+	"pets": {
+		"uuid0": {
+			"name": "OBI",
+			"age": 6,
+			"owner": "AA",
+			"species": "CANINE",
+			"breed": "GSD"
+		},
+		"uuid1": {
+			"name": "VADER",
+			"age": 6,
+			"owner": "AA",
+			"species": "CANINE",
+			"breed": "GSD"
+		},
+		"uuid2": {
+			"name": "BUSTER",
+			"age": 13,
+			"owner": "AA",
+			"species": "FELINE",
+			"breed": "DOMESTIC LONGHAIR"
+		},
+		"uuid3": {
+			"name": "SEMIRA",
+			"age": 3,
+			"owner": "AA",
+			"species": "FELINE",
+			"breed": "CALICO"
+		}
+	}
+}
